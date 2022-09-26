@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPM Bookstore</title>
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="dist/js/bootstrap.min.js"></script>
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="collect.css">
+</head>
+<body>
+    
+  <div class="header">
+    <div class="container-fixed">
+      <nav class="navbar navbar-expand-lg justify-content-between navbar navbar-dark col-12 navbar-expand-lg bg-dark"
+        style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+          <a href="index.html"><img class="imgLogo navbar-brand" src="LPM (3).png" alt=""></a>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="nav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index2.html">Ebooks</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Descontos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="colect (2).html">Coleções</a>
+                </li> 
+            </div> 
+          </div> 
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="login.html"><button class="btnt">ENTRAR</button></a>
+            </li>
+          </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
+              <button type="button" class="btn btn-outline-light btn-sm">Procurar</button>
+            </form><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </div>
+    
+    <BR><br>
+
+    <div class="card-group">
+        <div class="card">
+          <img src="imgs/rainha_vermelha.jpg" class="card-img-top" alt="LIVRO">
+          <div class="card-body">
+            <h5 class="card-title"><strong>A Rainha Vermelha</strong></h5>
+            <p class="card-text">Um box de 5 livros da autora Victoria Aveyard, onde conta a história de Mare Borrow. Livros contidos
+                no box: A rainha vermelha, Espada de vidro, A prisão do rei, Tempestade de guerra e Trono destruído
+            </p>
+          </div>
+            <button type="button" class="btn btn-primary m-auto" style="width: 150px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Saiba mais
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><strong>Box A Rainha Vermelha</strong></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    O box vem com 5 livros contando a história de uma distopia, onde o povo é dividido entre sangues vermelhos e prateados, os vermelhos servem os povos de sangue prateado, 
+                    que são da elite. A nossa protagonista nasce sangue com sangue vermelho e precisa roubar e lutar pela vida.
+                    <br><br>
+                    <strong>Autora:</strong> Victoria Aveyard 
+                    <br>
+                    <strong>Classificação:</strong> +13 anos
+                    <br>
+                    <strong>Gênero:</strong> Romance, Ficção Juvenil
+                    <br><br>
+                    <h3><strong>R$ 70,00</strong></h3>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><strong>Adicionar ao carinho</strong></button>
+                      <button type="button" class="btn btn-success"><strong>Comprar</strong></button>
+                    </div>
+                </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="card">
+          <img src="imgs/seleção.webp" class="card-img-top" alt="LIVRO">
+          <div class="card-body">
+            <h5 class="card-titulo"><strong>A Seleção</strong></h5>
+            <p class="card-text">Um box de 6 livros da autora Kiera Cass, febre entre o público jovem, trazendo a história da nossa personagem
+                America. Livros do box: A seleção, A elite, A escolha, A herdeira, A coroa e Felizes para sempre.
+            </p>
+          </div>
+
+            <!-- <div class="bt"> -->
+                <button type="button" class="btn btn-primary m-auto" style="width: 150px;" data-bs-toggle="modal" data-bs-target="#exampleModa2">
+                    Saiba mais
+                </button>
+             <!-- </div> -->
+
+
+            <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><strong>Box A Seleção</strong></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    O box contém 6 livros que contam a história de America, o mundo vive em uma hierarquia de castas, quando o Príncipe Maxon começa a fazer uma seleção para encontrar alguém 
+                    que conquistasse seu coração, as meninas que estavam inscritas tinham um sonho de mudar de vida para sempre e viver junto a realeza. Porém América não estava lá por causa do
+                    príncipe, mas por conta de sua família. Porque ir para o castelo, significava que ela deixaria para trás o seu grande amor.
+                    <br><br>
+                    <strong>Autora:</strong> Kiera Cass
+                    <br>
+                     <strong>Classificação:</strong> +13 anos
+                    <br>
+                    <strong>Gênero:</strong> Romance, Ficção adolescente
+                    <br><br>
+                    <h3><strong>R$ 75,50 </strong></h3>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><strong>Adicionar ao carinho</strong></button>
+                      <button type="button" class="btn btn-success"><strong>Comprar</strong></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="card">
+          <img src="imgs/sherlock.jpg" class="card-img-top" alt="LIVRO">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Sherlock Holmes</strong></h5>
+            <p class="card-text">Um box de 6 livros do Autor Sir Arthur Conan. Os livros contam a história de um dos mais famosos detetives
+                Sherlock Holmes. Os 6 volumes dos livros são: O cão dos Bakerville, As aventuras de Sherlock Holmes, Mais aventuras de Sherlock
+                Holmes, Um estudo em Vermelho, O vale do medo e O signo dos quatro.
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-primary m-auto" style="width: 150px" data-bs-toggle="modal" data-bs-target="#exampleModa3">
+            Saiba mais
+        </button>
+
+        <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Box de Sherlock Holmes</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                O box contém 6 dos maiores clássicos do detetive Sherlock Holmes, onde ele e seu companheiro DR. Watson solucionam crimes da sua maneira lógica e utilizando a metodologia
+                científica.
+                <br><br>
+                <strong>Autor:</strong> Sir Arthur Conan
+                <br>
+                <strong>Classificação:</strong> +14 anos 
+                <br>
+                <strong>Gênero:</strong> Conto, Ficção Policial, Místério
+                <br><br>
+                <h3><strong>R$ 75,00</strong></h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><strong>Adicionar ao carinho</strong></button>
+                  <button type="button" class="btn btn-success"><strong>Comprar</strong></button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <br>
+
+    <div class="card-group">
+        <div class="card">
+          <img src="imgs/HP.jpg" class="card-img-top" alt="LIVRO">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Harry Potter</strong></h5>
+            <p class="card-text">Um box de 7 livros da autora J. K. Roling, um dos maiores sucessos da literatura dentro dos anos 2000, além 
+                do box, ao comprar, você receberá um marca página e mais dois brindes personalizados da saga de Harry Potter. O box é uma edição 
+                limitada.
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-primary m-auto" style="width: 150px" data-bs-toggle="modal" data-bs-target="#exampleModa4">
+            Saiba mais
+        </button>
+
+        <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Kit Harry Potter</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                O box de livro conta a história de um menino chamado Harry Potter, porém aos 11 anos ele descobre que é um bruxo e é convidado para entrar a Escola de  Magia e Bruxaria de 
+                Hogwarts, coisas estranhas acontecem e muitas aventuras pela frente.
+                Além de comprar os livros, você recebe um marca página e dois brindes da saga Harry Potter.
+                <br><br>
+                <strong>Autora:</strong> J. K. Roling
+                <br>
+                <strong>Classificação:</strong> +10 anos
+                <br>
+                <strong>Gênero:</strong> Aventura, Fantasia 
+                <br><br>
+                    <h3><strong>R$ 99,00</strong></h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><strong>Adicionar ao carinho</strong></button>
+                  <button type="button" class="btn btn-success"><strong>Comprar</strong></button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="card">
+          <img src="imgs/After.jfif" class="card-img-top" alt="LIVRO">
+          <div class="card-body">
+            <h5 class="card-titulo"><strong>After</strong></h5>
+            <p class="card-text">Um box de 5 livros da autora Anna Todd, atualmente um grande sucesso por conta de sua adaptação para o cinema.
+                Os livros contam a história de Tessa Young e Hardin Scott. Sendo os livros: After, After - Depois da verdade, After - Depois do 
+                desencontro, After - Depois da esperança e After - Dpeois da promessa.
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-primary m-auto" style="width: 150px" data-bs-toggle="modal" data-bs-target="#exampleModa5">
+            Saiba mais
+        </button>
+
+        <div class="modal fade" id="exampleModa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Box After</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                O box contém 5 livros que contam a história de Tessa young e Hardin Scott, traçam sua história e suas aventuras. Tessa é uma 
+                aluna exemplar, uma filha comportada, porém as coisas começam a mudar quando ela vai para a faculdade e seu destino é traçado 
+                com o de Hardin, um menino misterioso e cheio de segredos.
+                <br><br>
+                <strong>Autora:</strong> Anna Todd
+                <br>
+                <strong>Classificação:</strong> +18 anos
+                <br>
+                <strong>Genêro:</strong> Romance
+                <br><br>
+                <h3><strong>R$ 70,00</strong></h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><strong>Adicionar ao carinho</strong></button>
+                  <button type="button" class="btn btn-success"><strong>Comprar</strong></button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="card">
+          <img src="imgs/anne.jpg" class="card-img-top" alt="LIVRO">
+          <div class="card-body">
+            <h5 class="card-titulo"><strong>Anne</strong></h5>
+            <p class="card-text">Um box de 6 livros da coleção dos livros Anne de Green Gables. Escrito por Lucy Maud Montgomery. Os livros
+                contidos no box são: Anne de Green Gables, Anne de Avonlea,  Anne da Ilha, Anne de Windy Poplars, Anne a casa dos sonhos e 
+                Anne de Ingleside.
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-primary m-auto" style="width: 150px" data-bs-toggle="modal" data-bs-target="#exampleModa6">
+            Saiba mais
+        </button>
+
+        <div class="modal fade" id="exampleModa6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Box Anne</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                O box contém 6 livros que contam a história de Anne, uma menina orfã que é adotada por irmãos, porém ao invés do orfanato 
+                enviar um menino como eles haviam combinado, uma menina, de 11 anos, ruiva é levada a família.
+                <br><br>
+                <strong>Autora:</strong> Lucy Maud Montgomery
+                <br>
+                <strong>Classificação:</strong> Infantil
+                <br>
+                <strong>Gênero:</strong> Leitura Infatil, Ficção
+                <br><br>
+                <h3><strong>R$ 76,00</strong></h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><strong>Adicionar ao carinho</strong></button>
+                  <button type="button" class="btn btn-success"><strong>Comprar</strong></button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <br>
+
+    <div class="card-group">
+        <div class="card">
+          <img src="imgs/agatha.webp" class="card-img-top" alt="LIVRO">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Agatha Christie</strong></h5>
+            <p class="card-text">Um box com 3 livros de uma das grandes escritoras do genêro criminal, Agatha Cristie. Os livros do box
+               são: Morte no Nilo, Assasinato no expresso do Oriente e Um corpo na biblioteca. 
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-primary m-auto" style="width: 150px" data-bs-toggle="modal" data-bs-target="#exampleModa7">
+            Saiba mais
+        </button>
+
+        <div class="modal fade" id="exampleModa7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Box Agatha Christie</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                O box contém 3 livros, contando diferentes tipos de assasinatos muito bem construídos e a autora aos poucos nos leva a descobrir 
+                quem é o assassino, porém no meio do caminho muitas surpresas acontecem e são reveladas.
+                <br><br>
+                <strong>Autora:</strong> Agatha Christie
+                <br>
+                <strong>Classificação:</strong> +18 anos
+                <br>
+                <strong>Gênero:</strong> Mistério, Crime
+                <br><br>
+                <h3><strong>R$ 67,00</strong></h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><strong>Adicionar ao carinho</strong></button>
+                  <button type="button" class="btn btn-success"><strong>Comprar</strong></button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+        
+        <div class="card">
+          <img src="imgs/Jane.webp" class="card-img-top" alt="LIVRO">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Jane Austen</strong></h5>
+            <p class="card-text">O box contém os livros clássicos da autora Jane Austen, sendo eles Orgulho e Preconceito, Persuasão,
+              A ábadia de Northanger, Razão e Sensibilidade e Emma. Todos os mais famosos livros da literatura Britânica.
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-primary m-auto" style="width: 150px" data-bs-toggle="modal" data-bs-target="#exampleModa8">
+            Saiba mais
+        </button>
+
+        <div class="modal fade" id="exampleModa8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Box Jane Austen</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                O box contém 5 livros que fazem muit sucesso por todo o mundo, trazendo histórias medievais, com temas ligados a realeza e 
+                muito mais.
+                <br><br>
+                <strong>Autora:</strong> Jane Austen
+                <br>
+                <strong>Classificação:</strong> +13 anos
+                <br>
+                <strong>Genêro:</strong> Romance de época
+                <br><br>
+                <h3><strong>R$ 70,00</strong></h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><strong>Adicionar ao carinho</strong></button>
+                  <button type="button" class="btn btn-success"><strong>Comprar</strong></button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="card">
+          <img src="imgs/senhor.jpg" class="card-img-top" alt="LIVRO">
+          <div class="card-body">
+            <h5 class="card-title"><strong>O Senhor dos Anéis</strong></h5>
+            <p class="card-text">A saga que é um sucesso nos cinemas, tem 5 livros, sendo eles: A guerra dos tronos, A fúria dos reis, A 
+              dança dos dragões, O festim dos corvos e A tormenta de espadas. 
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-primary m-auto" style="width: 150px" data-bs-toggle="modal" data-bs-target="#exampleModa9">
+            Saiba mais
+        </button>
+
+        <div class="modal fade" id="exampleModa9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Box O Senhor dos Anéis</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Todos os 5 livros se passam dentro do universo de senhor dos anéis, sendo eles todos tratando dos conflitos que aconteciam nas 
+                terras médias, através de todos os povos para evitar que o Anel do Poder chegasse as mãos do seu criador.
+                <br><br>
+                <strong>Autor:</strong> J. R. R. Tolkien
+                <br>
+                <strong>Classificação:</strong> +18 anos
+                <br>
+                <strong>Genêro:</strong> Fantasia
+                <br><br>
+                <h3><strong>R$ 60,00</strong></h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><strong>Adicionar ao carinho</strong></button>
+                  <button type="button" class="btn btn-success"><strong>Comprar</strong></button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>

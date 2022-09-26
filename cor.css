@@ -1,0 +1,130 @@
+body {
+    background: #f8f9fa;
+    
+}
+
+.card-group{
+    margin-bottom: 1rem;
+}
+
+.card-group .card{
+    margin: 0px 1rem;
+    box-shadow: 0 0 5px rgba(43, 43, 43, 0.05);
+    border: 0;
+    outline: 0;
+}
+.btnt{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #e6013a;
+    transition: 0.6s;
+    font-size: 18px;
+    border: none;
+    background: none;
+    font-weight: 800;
+    margin-right: 3em;
+    font-family: 'Anek Telugu', sans-serif;;
+}
+
+.nav-link{
+    color: #fff;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+ul li:first-child{
+    margin-left: 0;
+}
+
+.btnt:hover{
+
+}
+
+.imgLogo{
+    width: 10vw;
+    
+    margin-right: 5em;
+}
+
+@media only screen and (max-width: 991px) {
+    .btnt{
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 739px) {
+    .form-control{
+        display: none;
+
+    }
+    .btn{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    
+    .btn{
+        margin-right: 15px;
+    }
+    .btnt{
+        margin-right: 15px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1152px) {
+    .imgLogo{
+        margin-right: 3em;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .imgLogo{
+        margin-right: 4vw;
+        width: 20vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .imgLogo{
+        width: 30vw;
+        margin-right: 2vw;
+    }
+    .btnt{
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    .imgLogo{
+        width: 25vw;
+        margin-right: 0;
+    }
+    .btnt{
+        font-size: 5vw;
+    }
+}
+
+button .btn-outline-light, .btn-sm, .btn{
+    transition: 0.5s;
+    outline: none;
+}
+
+
+.card-img-top{
+    width: 9em;
+    height: 9em;
+    border-radius: 2px;
+}
+img {
+    max-width: 10rem;
+}
+.offcanvas-body{
+    
+  
+}
